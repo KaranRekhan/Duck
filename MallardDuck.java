@@ -4,3 +4,8 @@ public class MallardDuck extends Duck{
         swimBehaviour=new SwimWithLegs();
         flyingBehaviour=new CanFly();
     }
+    @Override
+    public void display() {
+        System.out.println(" I am Mallard Duck...");
+    }
+}
