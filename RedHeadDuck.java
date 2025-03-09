@@ -5,3 +5,10 @@ public class RedHeadDuck extends Duck{
         swimBehaviour=new SwimWithLegs();
         flyingBehaviour=new CanFly();
     }
+    @Override
+    public void display() {
+        System.out.println(" I am RedHead Duck...");
+
+
+    }
+}
