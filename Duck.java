@@ -14,3 +14,17 @@ abstract public class Duck {
         this.flyingBehaviour = flyingBehaviour;
     }
 
+    abstract public void display();
+
+
+    public void performQuack(){
+        quackBehaviour.quack();
+    }
+    public void performSwim(){
+        swimBehaviour.swim();
+    }
+    public void performFly(){
+        flyingBehaviour.fly();
+    }
+
+}
